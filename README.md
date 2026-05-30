@@ -66,7 +66,7 @@ Automatically converts folders into proper Kotlin package names.
 Example:
 
 ```kotlin
-package com.tt.rakchat.feature.login.presentation.viewmodel
+package com.<unit>.<app_name>.feature.<screen>.presentation.viewmodel
 ```
 
 ---
@@ -90,7 +90,7 @@ Generated screen files already contain:
 
 ```kotlin
 @Composable
-fun LoginScreen() {
+fun SampleScreen() {
 }
 ```
 
@@ -195,7 +195,7 @@ python compose_arch.py
 You can customize the base package inside:
 
 ```python
-BASE_PACKAGE = "com.tt.rakchat.feature"
+BASE_PACKAGE = "com.<unit>.<app_name>.feature"
 ```
 
 Example:
